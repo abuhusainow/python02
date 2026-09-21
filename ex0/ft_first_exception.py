@@ -7,7 +7,7 @@ def test_temperature() -> None:
     str_int: list[str] = ["25", "abc"]
 
     for item in str_int:
-        print(f"Input data is {item}")
+        print(f"Input data is '{item}'")
         # führt den Code aus um schaut, ob es einen Fehler gibt. ->
         # input_temperature() wird uns einen Fehler für "abc" geben.
         try:
